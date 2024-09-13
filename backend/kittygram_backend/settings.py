@@ -1,4 +1,3 @@
-# flake8: noqa
 import os
 from pathlib import Path
 
@@ -8,7 +7,7 @@ SECRET_KEY = 'django-insecure-cg6*%6d51ef8f#4!r3*$vmxm4)abgjw8mo!4y-q*uq1!4$-89$
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['89.169.171.114', 'kittygramel.serveftp.com']
+ALLOWED_HOSTS = ['89.169.171.114', 'localhost', '127.0.0.1', 'kittygramel.serveftp.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
